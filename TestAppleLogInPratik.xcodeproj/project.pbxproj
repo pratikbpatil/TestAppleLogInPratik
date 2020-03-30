@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181A7D3C2431C5BB00BC364F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181A7D3B2431C5BB00BC364F /* HomeViewController.swift */; };
 		18DE7EE42431C22900197EBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE7EE32431C22900197EBF /* AppDelegate.swift */; };
 		18DE7EE62431C22900197EBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE7EE52431C22900197EBF /* ViewController.swift */; };
 		18DE7EE92431C22900197EBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DE7EE72431C22900197EBF /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		181A7D3A2431C27500BC364F /* TestAppleLogInPratik.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestAppleLogInPratik.entitlements; sourceTree = "<group>"; };
+		181A7D3B2431C5BB00BC364F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		18DE7EE02431C22900197EBF /* TestAppleLogInPratik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAppleLogInPratik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DE7EE32431C22900197EBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18DE7EE52431C22900197EBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,8 +57,10 @@
 		18DE7EE22431C22900197EBF /* TestAppleLogInPratik */ = {
 			isa = PBXGroup;
 			children = (
+				181A7D3A2431C27500BC364F /* TestAppleLogInPratik.entitlements */,
 				18DE7EE32431C22900197EBF /* AppDelegate.swift */,
 				18DE7EE52431C22900197EBF /* ViewController.swift */,
+				181A7D3B2431C5BB00BC364F /* HomeViewController.swift */,
 				18DE7EE72431C22900197EBF /* Main.storyboard */,
 				18DE7EEA2431C22900197EBF /* Assets.xcassets */,
 				18DE7EEC2431C22900197EBF /* LaunchScreen.storyboard */,
@@ -137,6 +142,7 @@
 			files = (
 				18DE7EE62431C22900197EBF /* ViewController.swift in Sources */,
 				18DE7EE42431C22900197EBF /* AppDelegate.swift in Sources */,
+				181A7D3C2431C5BB00BC364F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TestAppleLogInPratik/TestAppleLogInPratik.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WPCV78YK7A;
 				INFOPLIST_FILE = TestAppleLogInPratik/Info.plist;
@@ -300,6 +307,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TestAppleLogInPratik/TestAppleLogInPratik.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WPCV78YK7A;
 				INFOPLIST_FILE = TestAppleLogInPratik/Info.plist;

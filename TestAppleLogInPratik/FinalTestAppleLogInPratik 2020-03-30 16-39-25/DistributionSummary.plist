@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TestAppleLogInPratik.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>306B82CC3A19465AF788EF40853FE6FC8F97D57E</string>
+				<key>dateExpires</key>
+				<string>30/03/21</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>WPCV78YK7A.com.rsl.GourmetDeliCo2.TestAppleLogInPratik</string>
+				<key>com.apple.developer.applesignin</key>
+				<array>
+					<string>Default</string>
+				</array>
+				<key>com.apple.developer.team-identifier</key>
+				<string>WPCV78YK7A</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>TestAppleLogInPratik.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>ab50d9e2-40c7-4d0e-951f-f5236db5edf7</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.rsl.GourmetDeliCo2.TestAppleLogInPratik</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>WPCV78YK7A</string>
+				<key>name</key>
+				<string>Waghole Rahul Jalindar</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
